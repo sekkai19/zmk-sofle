@@ -125,8 +125,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: INS, type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - INS
   - {t: '0', s: )}
   - KP DOT
   - {t: '$$mdi:keyboard-return$$', type: enter}
