@@ -61,7 +61,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - NumFn
-  - <&scroll_encoder>
+  - System
   - {t: '-', s: _}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
@@ -130,7 +130,7 @@ layers:
   - {t: '0', s: )}
   - {t: ., s: '>'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  <&scroll_encoder>:
+  System:
   - '~'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
