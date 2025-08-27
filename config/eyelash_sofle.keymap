@@ -51,7 +51,6 @@
 &kp C_MUTE      &kp LCTRL             &kp LALT        &kp LEFT_GUI      &kp SPACE  &kp SPACE    &kp ENTER        &lt 1 ENTER  &lt 3 LEFT_ARROW      &kp DOWN   &kp UP                &kp RIGHT
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
             display-name = "Main";
         };
 
@@ -65,7 +64,6 @@
             >;
 
             display-name = "NumFn";
-            sensor-bindings = <&scroll_encoder>;
         };
 
         symbols {
