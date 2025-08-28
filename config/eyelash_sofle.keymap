@@ -79,6 +79,7 @@
 &trans    &trans         &trans         &kp LS(STAR)   &kp RA(DE_LESS_THAN)  &kp RA(DE_SZ)    &trans  &kp LS(DE_N7)  &kp LS(DE_N6)         &kp RA(DE_PLUS)  &trans         &trans         &trans
 &trans    &trans         &trans         &trans         &trans                &trans           &trans  &trans         &trans                &trans           &trans         &trans
             >;
+            display-name = "Symbols";
         };
 
         layer_2 {
