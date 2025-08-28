@@ -75,7 +75,7 @@
             bindings = <
 &trans    &trans    &trans        &trans        &trans    &trans       &trans  &trans    &trans        &trans      &trans        &trans    &trans
 &trans    &trans    &trans        &trans        &trans    &trans       &trans  &trans    &trans        &trans      &trans        &trans    &trans
-&kp LBRC  &kp LBKT  &kp LS(LPAR)  &kp LT        &trans    &kp MINUS    &trans  &kp PLUS  &trans        &kp LS(GT)  &kp LS(RPAR)  &kp RBKT  &kp RBRC
+&kp LBRC  &kp LBKT  &kp LS(LPAR)  &kp LT        &trans    &kp MINUS    &trans  &kp PLUS  &kp DE_EQUAL  &kp LS(GT)  &kp LS(RPAR)  &kp RBKT  &kp RBRC
 &trans    &trans    &trans        &kp LS(STAR)  &kp PIPE  &trans       &trans  &trans    &kp LS(AMPS)  &kp TILDE   &trans        &trans    &trans
 &trans    &trans    &trans        &trans        &trans    &trans       &trans  &trans    &trans        &trans      &trans        &trans
             >;
