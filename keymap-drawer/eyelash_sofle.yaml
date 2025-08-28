@@ -54,17 +54,17 @@ layers:
   - '&mt LS((ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_BACKSLASH_AND_PIPE))) LS((ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_2_AND_AT)))'
   - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD NON US BACKSLASH AND PIPE)))
   - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:backspace$$', h: NumFn}
+  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:arrow-down-bold$$', h: NumFn}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', h: NumFn}
   - {t: '$$mdi:arrow-left-bold$$', h: Symbols}
   - $$mdi:arrow-right-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
+  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:backspace-reverse-outline$$
   NumFn:
   - {t: '`', s: '~'}
   - F1
