@@ -53,7 +53,7 @@
 &kp TAB         &mt DE_AT DE_Q        &kp W           &mt DE_EURO DE_E  &kp R   &kp T        &kp DOWN_ARROW   &kp DE_Z     &mt DE_U_UMLAUT DE_U  &kp I      &mt DE_O_UMLAUT DE_O  &kp P              &kp DE_SZ
 &kp LCTRL       &mt DE_A_UMLAUT DE_A  &mt DE_SZ DE_S  &kp D             &kp F   &kp G        &kp LEFT_ARROW   &kp H        &kp J                 &kp K      &kp L                 &kp DE_MINUS       &kp DE_PLUS
 &kp LEFT_SHIFT  &kp DE_Y              &kp X           &kp C             &kp V   &kp B        &kp RIGHT_ARROW  &kp N        &kp M                 &kp COMMA  &kp DOT               &kp DOUBLE_QUOTES  &kp DE_PIPE
-&kp C_MUTE      &kp LCTRL             &kp LALT        &kp LEFT_GUI      &tog 1  &kp SPACE    &kp ENTER        &lt 1 ENTER  &lt 3 LEFT_ARROW      &kp RIGHT  &kp DOWN              &kp UP
+&kp C_MUTE      &kp LCTRL             &kp LALT        &kp LEFT_GUI      &tog 1  &kp SPACE    &kp ENTER        &lt 1 ENTER  &lt 2 LEFT_ARROW      &kp RIGHT  &kp DOWN              &kp UP
             >;
 
             display-name = "Main";
