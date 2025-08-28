@@ -49,11 +49,11 @@
 
         layer0 {
             bindings = <
-&kp ESCAPE      &kp N1                &kp N2          &kp N3            &kp N4  &kp N5       &kp UP_ARROW     &kp N6       &kp N7                &kp N8     &kp N9                &kp N0             &kp BACKSPACE
-&kp TAB         &mt DE_AT DE_Q        &kp W           &mt DE_EURO DE_E  &kp R   &kp T        &kp DOWN_ARROW   &kp DE_Z     &mt DE_U_UMLAUT DE_U  &kp I      &mt DE_O_UMLAUT DE_O  &kp P              &kp DE_SZ
-&kp LCTRL       &mt DE_A_UMLAUT DE_A  &mt DE_SZ DE_S  &kp D             &kp F   &kp G        &kp LEFT_ARROW   &kp H        &kp J                 &kp K      &kp L                 &kp DE_MINUS       &kp DE_PLUS
-&kp LEFT_SHIFT  &kp DE_Y              &kp X           &kp C             &kp V   &kp B        &kp RIGHT_ARROW  &kp N        &kp M                 &kp COMMA  &kp DOT               &kp DOUBLE_QUOTES  &kp DE_PIPE
-&kp C_MUTE      &kp LCTRL             &kp LALT        &kp LEFT_GUI      &tog 1  &kp SPACE    &kp ENTER        &lt 1 ENTER  &lt 2 LEFT_ARROW      &kp RIGHT  &kp DOWN              &kp UP
+&kp ESCAPE      &kp N1                &kp N2          &kp N3            &kp N4           &kp N5       &kp UP_ARROW     &kp N6       &kp N7                &kp N8     &kp N9                &kp N0             &kp BACKSPACE
+&kp TAB         &mt DE_AT DE_Q        &kp W           &mt DE_EURO DE_E  &kp R            &kp T        &kp DOWN_ARROW   &kp DE_Z     &mt DE_U_UMLAUT DE_U  &kp I      &mt DE_O_UMLAUT DE_O  &kp P              &kp DE_SZ
+&kp LCTRL       &mt DE_A_UMLAUT DE_A  &mt DE_SZ DE_S  &kp D             &kp F            &kp G        &kp LEFT_ARROW   &kp H        &kp J                 &kp K      &kp L                 &kp DE_MINUS       &kp DE_PLUS
+&kp LEFT_SHIFT  &kp DE_Y              &kp X           &kp C             &kp V            &kp B        &kp RIGHT_ARROW  &kp N        &kp M                 &kp COMMA  &kp DOT               &kp DOUBLE_QUOTES  &kp DE_PIPE
+&kp C_MUTE      &kp LCTRL             &kp LALT        &kp LEFT_GUI      &lt 1 BACKSPACE  &kp SPACE    &kp ENTER        &lt 1 ENTER  &lt 2 LEFT_ARROW      &kp RIGHT  &kp DOWN              &kp UP
             >;
 
             display-name = "Main";
@@ -75,10 +75,11 @@
             bindings = <
 &trans    &trans         &trans         &trans         &trans                &trans           &trans  &trans         &trans                &trans           &trans         &trans         &trans
 &trans    &trans         &trans         &trans         &trans                &trans           &trans  &trans         &trans                &trans           &trans         &trans         &trans
-&kp LBRC  &kp RA(DE_N7)  &kp RA(DE_N8)  &kp LS(DE_N8)  &kp DE_LESS_THAN      &kp DE_MINUS     &trans  &kp DE_PLUS    &kp LS(DE_LESS_THAN)  &kp LS(DE_N9)    &kp RA(DE_N9)  &kp RA(DE_N0)  &kp RBRC
+&kp LBRC  &kp RA(DE_N7)  &kp RA(DE_N8)  &kp LS(DE_N8)  &kp DE_LESS_THAN      &kp DE_MINUS     &trans  &kp DE_PLUS    &kp LS(DE_LESS_THAN)  &kp LS(DE_N9)    &kp RA(DE_N9)  &kp RA(DE_N0)  &kp RA(DE_N0)
 &trans    &trans         &trans         &kp LS(STAR)   &kp RA(DE_LESS_THAN)  &kp RA(DE_SZ)    &trans  &kp LS(DE_N7)  &kp LS(DE_N6)         &kp RA(DE_PLUS)  &trans         &trans         &trans
 &trans    &trans         &trans         &trans         &trans                &trans           &trans  &trans         &trans                &trans           &trans         &trans
             >;
+
             display-name = "Symbols";
         };
 
