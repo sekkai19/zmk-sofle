@@ -61,7 +61,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', h: NumFn}
-  - {t: '$$mdi:arrow-left-bold$$', h: symbols}
+  - {t: '$$mdi:arrow-left-bold$$', h: Symbols}
   - $$mdi:arrow-right-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
@@ -130,7 +130,7 @@ layers:
   - {t: '0', s: )}
   - {t: ., s: '>'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  symbols:
+  Symbols:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
