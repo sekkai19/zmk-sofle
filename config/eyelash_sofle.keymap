@@ -77,7 +77,7 @@
 &trans           &trans         &trans         &trans         &trans                &trans           &trans  &trans         &trans                &trans           &trans         &trans         &trans
 &trans           &trans         &trans         &trans         &trans                &trans           &trans  &trans         &trans                &trans           &trans         &trans         &trans
 &kp LS(DE_PLUS)  &kp RA(DE_N7)  &kp RA(DE_N8)  &kp LS(DE_N8)  &kp DE_LESS_THAN      &kp DE_MINUS     &trans  &kp DE_PLUS    &kp LS(DE_LESS_THAN)  &kp LS(DE_N9)    &kp RA(DE_N9)  &kp RA(DE_N0)  &kp RA(DE_N0)
-&trans           &trans         &trans         &kp LS(STAR)   &kp RA(DE_LESS_THAN)  &kp RA(DE_SZ)    &trans  &kp LS(DE_N7)  &kp LS(DE_N6)         &kp RA(DE_PLUS)  &trans         &trans         &trans
+&trans           &trans         &trans         &kp LS(STAR)   &kp RA(DE_LESS_THAN)  &kp RA(DE_SZ)    &trans  &kp LS(DE_N7)  &kp LS(DE_N6)         &kp RA(DE_PLUS)  &kp DE_HASH    &trans         &trans
 &trans           &trans         &trans         &trans         &trans                &trans           &trans  &trans         &trans                &trans           &trans         &trans
             >;
 
