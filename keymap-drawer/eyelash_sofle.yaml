@@ -165,7 +165,7 @@ layers:
   - {t: '-', s: _}
   - {t: '$$mdi:transfer$$', type: trans}
   - +
-  - {t: '$$mdi:transfer$$', type: trans}
+  - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 0 AND RIGHT PARENTHESIS)))
   - Sft+>
   - Sft+)
   - {t: ']', s: '}'}
