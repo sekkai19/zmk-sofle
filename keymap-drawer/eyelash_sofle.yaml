@@ -26,7 +26,7 @@ layers:
   - I
   - '&mt (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SEMICOLON_AND_COLON)) (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_O))'
   - P
-  - {t: /, s: '?'}
+  - ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD MINUS AND UNDERSCORE)))
   - $$mdi:apple-keyboard-control$$
   - '&mt (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_APOSTROPHE_AND_QUOTE)) (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_A))'
   - '&mt ((ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_MINUS_AND_UNDERSCORE))) (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_S))'
@@ -38,8 +38,8 @@ layers:
   - J
   - K
   - L
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SLASH AND QUESTION MARK))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD RIGHT BRACKET AND RIGHT BRACE))
   - $$mdi:apple-keyboard-shift$$
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Z))
   - X
@@ -51,20 +51,20 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: '''', s: '"'}
-  - {t: \, s: '|'}
+  - '"'
+  - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD NON US BACKSLASH AND PIPE)))
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - $$mdi:keyboard-space$$
+  - {t: NumFn, h: toggle}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', h: NumFn}
   - {t: '$$mdi:arrow-left-bold$$', h: System}
+  - $$mdi:arrow-right-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
   NumFn:
   - {t: '`', s: '~'}
   - F1
