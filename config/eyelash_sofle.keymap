@@ -27,6 +27,11 @@
     trigger-period-ms = <16>;
 };
 
+&mt {
+    flavor = "balanced";
+    tapping-term-ms = <250>;
+};
+
 / {
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
